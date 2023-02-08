@@ -1,0 +1,12 @@
+var modelos = {
+
+//solo es cambiar el enlace al final, el resto se conserva
+"modelo_3d": "'<div class=\"sketchfab-embed-wrapper\"> <iframe title=\"Mural B Cerro Azul - Trozo 1\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" allow=\"autoplay; fullscreen; xr-spatial-tracking\" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width=\"1280\" height=\"720\" src=\"https://sketchfab.com/models/2ac3374e0d1a4e34b2e1a95bee1bbdd3/embed?autostart=1&camera=0\"> </iframe> </div>' ",
+"modelo_3d": "'<div class=\"sketchfab-embed-wrapper\"> <iframe title=\"nuevotlima\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" allow=\"autoplay; fullscreen; xr-spatial-tracking\" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width=\"980\" height=\"620\" src=\"https://sketchfab.com/models/7a2443ba8b7243d6813aabb36df5663a/embed?autostart=1&camera=0\"> </iframe> </div>' ",
+"modelo_3d": "'<div class=\"sketchfab-embed-wrapper\"> <iframe title=\"Raudal del Guayabero\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" allow=\"autoplay; fullscreen; xr-spatial-tracking\" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width=\"980\" height=\"620\" src=\"https://sketchfab.com/models/15c171f781d846b98454af7dab66793e/embed?autostart=1&camera=0\"> </iframe> </div>' ",
+"modelo_3d": "'<div class=\"sketchfab-embed-wrapper\"> <iframe title=\"Chiribiquete1\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" allow=\"autoplay; fullscreen; xr-spatial-tracking\" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width=\"980\" height=\"620\" src=\"https://sketchfab.com/models/ac1e239f2dbd48c8921d5d8c21018b8a/embed?autostart=1&camera=0\"> </iframe> </div>' ",
+"modelo_3d": "'<div class=\"sketchfab-embed-wrapper\"> <iframe title=\"Cerrito\" frameborder=\"0\" allowfullscreen mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" allow=\"autoplay; fullscreen; xr-spatial-tracking\" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width=\"980\" height=\"620\" src=\"https://sketchfab.com/models/64292e93111f4dbeb6673c443e9d19ef/embed?autostart=1&camera=0\"> </iframe> </div>' "
+
+}
+
+

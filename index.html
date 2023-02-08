@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Geolindosa</title>
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+	<!-- Css styles -->
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Js Scripts -->
+	<script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+
+<body style="background-color: lightgray">
+
+	<div class="row">
+
+		<div class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
+			<div class="nav-side-menu">
+				<!-- Image Title -->
+				<img src="img/Geolindosa.png" id="title_image" class="img-fluid rounded mx-auto d-block"
+					alt="Geolindosa image">
+				<!-- Image Button options -->
+				<img src="img/buttons/Blanco/GEOVISOR.png" id="img_GEOVISOR"
+					onclick="Click_Image_Button_Option('GEOVISOR')"
+					class="img-fluid rounded mx-auto d-block buttons_option" alt="Button GEOVISOR image">
+				<img src="img/buttons/Blanco/COMO_LLEGAR.png" id="img_COMO_LLEGAR"
+					onclick="Click_Image_Button_Option('COMO_LLEGAR')"
+					class="img-fluid rounded mx-auto d-block buttons_option" alt="Button COMO_LLEGAR image">
+				<img src="img/buttons/Blanco/REGISTRAR_SITIO.png" id="img_REGISTRAR_SITIO"
+					onclick="Click_Image_Button_Option('REGISTRAR_SITIO')"
+					class="img-fluid rounded mx-auto d-block buttons_option" alt="Button COCINREGISTRAR_SITIO image">
+				<img src="img/buttons/Blanco/FIESTA.png" id="img_FIESTA" onclick="Click_Image_Button_Option('FIESTA')"
+					class="img-fluid rounded mx-auto d-block buttons_option" alt="Button FIESTA image">
+				<!-- logos Image footer -->
+				<img src="img/footer.png" id="footer_image" class="img-fluid" alt="Footer image">
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 col-lg-9 col-md-9">
+			<div id="MapsContainer">
+				<iframe id="MapsFrame" src="/html/geovisor.html"></iframe>
+			</div>
+
+			<div id="ContainerDesctipcion">
+				<span class="boton" onclick="CloseContainerDescripcion()">CERRAR</span>
+
+				<p id="TitleDescripcion" class="h5 ml-5 mt-4"></p>
+
+				<!-- Descripcion Geovisor -->
+				<p class="ml-5" id="GeovisorDescripcion"><small class="SmallDescripcion">Hace al menos 12.500 años,
+						grupos indígenas de cazadores-recolectores recorrieron América
+						hasta las profundidades de la selva amazónica. Prueba de ello son las miles de pinturas
+						rupestres que están distribuidas a lo largo de los abrigos rocosos de la
+						Serranía de La Lindosa y el Parque Natural de Chiribiquete, en el departamento de Guaviare.
+						<br>Acá podrás encontrar muestras de estas manifestaciones rupestres
+						en las que están reflejados animales extintos, plantas, modos de caza, lucha y convivencia de
+						las comunidades que habitaron
+						el territorio hace miles de años. Además de ello podrás conocer todos los sitios de interés
+						natural y cultural que conforman esta área del territorio amazónico
+						colombiano, <b>¡BIENVENIDO/A!</b></small></p>
+
+				<!-- como_llegar descripcion -->
+				<p class="ml-5" id="Como_llegarDescripcion"><small class="SmallDescripcion">Navega en el minimapa de
+						GoogleMaps® para ver las rutas por las vías principales sugeridas
+						para recorrer la Serranía de la Lindosa </small></p>
+
+				<!-- RegistrarSitio descripcion -->
+				<p class="ml-5" id="RegistrarSitioDescripcion"><small class="SmallDescripcion"> Llena el formulario y
+						elige un punto sobre el mapa para enviar una solicitud de un
+						sitio nuevo. </small></p>
+
+				<!-- Fiestas descripcion -->
+				<p class="ml-5" id="FiestasDescripcion"><small class="SmallDescripcion">Las Fiestas y Celebraciones
+						hacen parte del universo cultural del Guaviare. Acá podrás
+						aprender más sobre los principales eventos del departamento. Sólo desplázate hacia abajo para
+						conocer sobre cada una de ellas!</small></p>
+
+			</div>
+		</div>
+	</div>
+
+	<img id="selloImage" class="sello_size float-right" alt="SELLO_GEOVISOR">
+
+	<audio id="my_audio" src="audio/audio.mp3" loop="loop"></audio>
+</body>
+
+</html>

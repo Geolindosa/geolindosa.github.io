@@ -1,0 +1,48 @@
+body {
+    position: relative;
+    
+    /* required */
+}
+
+/* Custom style to stick list group on top */
+.list-group {
+    position: sticky;
+    top: 50px;
+}
+
+.imgfiesta {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid  #520000;
+    padding: 3px;
+}
+
+.jumbotron {
+    width: 100%;
+    background-image: url("/img/banner4.jpg");
+    text-shadow: 0 0 0.4em rgb(255, 255, 255), 0 0 0.4em rgb(255, 255, 255),
+        0 0 0.4em rgb(255, 255, 255);
+    background-size: cover;
+    position: top;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    
+
+}
+
+.active{
+    background-color:  #520000 !important;
+    color: #ffffff !important;
+    border: 3px solid #000000 !important;
+}
+
+.list-group-item-action {
+    
+    background-color: #f0f0f08c;
+    border: 1px solid #ffae00;
+
+}
+

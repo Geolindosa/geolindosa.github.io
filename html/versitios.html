@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CÓMO LLEGAR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>¿Quieres agregar un nuevo sitio?</h1>
+        <p>Llena los siguientes datos y se te responderá en el menor tiempo posible!</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <form action="" method="POST">
+                                <h2>Registra un nuevo sitio</h2>
+                                <div class="form-group">
+                                    <label for="">Nombre del sitio:</label>
+                                    <input type="text" class="form-control" name="nombre" id="title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Descripción:</label>
+                                    <input type="text" class="form-control" name="descripcion" id="description">
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-primary btn-sm" name="mostrar-Sitios"
+                                        id="mostrar-Sitios">Mostrar lugares</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <h4 class=text-center>Selecciona un punto sobre el mapa para capturar las coordenadas!</h4>
+                <p class=text-center>Recuerda que puedes ajustar la posición del lugar</p>
+                <div id="sitios-tabla"> </div>
+            </div>
+            <div class="container">
+                <table class="table table-hover" id="tablaPelicula">
+                    <thead>
+                        <tr>
+                            <th>Nombre del sitio</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="/js/formulario_interfaz.js"></script>
+        <script src="/js/formulario_logica.js"></script>
+</body>
+
+</html>
